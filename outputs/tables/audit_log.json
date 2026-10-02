@@ -1,0 +1,148 @@
+{
+  "clients_shape": [
+    2000,
+    12
+  ],
+  "properties_shape": [
+    10000,
+    9
+  ],
+  "clients_missing": {
+    "client_id": 0,
+    "client_type": 0,
+    "first_name": 0,
+    "last_name": 0,
+    "date_of_birth": 0,
+    "gender": 0,
+    "country": 0,
+    "region": 0,
+    "acquisition_purpose": 0,
+    "satisfaction_score": 0,
+    "loan_applied": 0,
+    "referral_channel": 0
+  },
+  "properties_missing": {
+    "listing_id": 0,
+    "tower_number": 0,
+    "transaction_date": 0,
+    "unit_category": 0,
+    "unit_number": 0,
+    "floor_area_sqft": 0,
+    "sale_price": 0,
+    "listing_status": 0,
+    "client_ref": 2695
+  },
+  "clients_duplicate_ids": 0,
+  "clients_duplicate_rows": 0,
+  "properties_duplicate_ids": 0,
+  "listing_status_vs_missing_client_ref": {
+    "false": {
+      "Available": 0,
+      "Sold": 7305
+    },
+    "true": {
+      "Available": 2695,
+      "Sold": 0
+    }
+  },
+  "dob_unparseable": 0,
+  "dob_range": [
+    "1931-02-13",
+    "2000-12-19"
+  ],
+  "age_describe": {
+    "count": 2000.0,
+    "mean": 53.60137166324435,
+    "std": 17.349239329253965,
+    "min": 23.033538672142367,
+    "25%": 38.86173853524983,
+    "50%": 54.18480492813141,
+    "75%": 68.0287474332649,
+    "max": 92.88158795345653
+  },
+  "transaction_date_unparseable": 0,
+  "transaction_date_range": [
+    "2024-01-01",
+    "2025-12-01"
+  ],
+  "sale_price_negative_or_zero": 0,
+  "clients_after_merge": 2000,
+  "clients_dropped_no_sold_property": 0,
+  "feature_columns": [
+    "age",
+    "satisfaction_score",
+    "loan_applied_flag",
+    "total_properties",
+    "total_investment",
+    "avg_sale_price",
+    "avg_floor_area_sqft",
+    "distinct_towers",
+    "pct_office",
+    "purchase_span_months",
+    "region_enc",
+    "country_enc",
+    "client_type_Company",
+    "client_type_Individual",
+    "acquisition_purpose_Home",
+    "acquisition_purpose_Investment",
+    "referral_channel_Agency",
+    "referral_channel_Client",
+    "referral_channel_Website",
+    "gender_F",
+    "gender_M"
+  ],
+  "n_features": 21,
+  "elbow_inertias": {
+    "2": 23794.587305771,
+    "3": 21696.4911174347,
+    "4": 20148.44065812954,
+    "5": 18949.45321127063,
+    "6": 18102.503252810122,
+    "7": 17490.604863672797,
+    "8": 16938.629921334854,
+    "9": 16603.081682499855,
+    "10": 16236.173709069086
+  },
+  "silhouette_scores": {
+    "2": 0.11703166895899514,
+    "3": 0.12429151948143459,
+    "4": 0.10699649277035203,
+    "5": 0.11205915569103328,
+    "6": 0.0997174648428619,
+    "7": 0.09487149207895461,
+    "8": 0.09767033742276282,
+    "9": 0.09697023156653882,
+    "10": 0.09242438399363499
+  },
+  "best_k_by_silhouette": 3,
+  "final_k_used": 4,
+  "kmeans_silhouette": 0.10699649277035203,
+  "hierarchical_silhouette": 0.08310259963748391,
+  "kmeans_vs_hierarchical_agreement_pct": 79.55,
+  "cross_tab_kmeans_hierarchical": {
+    "0": {
+      "0": 528,
+      "1": 107,
+      "2": 0,
+      "3": 94
+    },
+    "1": {
+      "0": 12,
+      "1": 121,
+      "2": 6,
+      "3": 641
+    },
+    "2": {
+      "0": 54,
+      "1": 386,
+      "2": 1,
+      "3": 14
+    },
+    "3": {
+      "0": 0,
+      "1": 0,
+      "2": 36,
+      "3": 0
+    }
+  }
+}

@@ -1,0 +1,5 @@
+kmeans_cluster,n_clients,pct_company,pct_investment_purpose,pct_loan_applied,avg_age,avg_satisfaction,avg_total_properties,avg_total_investment,avg_sale_price,avg_floor_area,pct_office,top_country,pct_non_usa,n_countries,top_referral,segment_label
+0,594,4.0,33.0,35.4,53.8,2.9,3.0,931619.1,310368.4,1031.6,14.5,USA,26.1,10,Website,First-Time Buyers
+1,614,6.2,30.3,38.4,52.7,3.0,3.5,1479438.7,429115.5,1406.7,15.3,USA,22.0,10,Website,Luxury Investors
+2,43,2.3,37.2,34.9,62.4,3.4,7.5,2497550.1,334839.9,1106.0,13.4,USA,16.3,6,Website,Global Investors
+3,749,5.3,29.0,36.7,53.7,3.1,4.1,1270492.9,309674.3,1029.3,14.9,USA,22.0,10,Website,Corporate Buyers
