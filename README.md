@@ -146,4 +146,4 @@ streamlit run app/app.py
 - Periodic re-clustering to track segment drift over time
 
 ## Author
-*(your name)*
+*Chitransh Mathur*
